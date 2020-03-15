@@ -4,10 +4,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Get current time
-        uses: gerred/actions/current-time@master
-        id: current-time
+      - name: Get today string
+        uses: DanielRNDev/get-today@v1.0.0
+        id: today-string
       - name: Use current time
         env:
-          TIME: "${{ steps.current-time.outputs.time }}"
-        run: echo $TIME
+          TODAY: "${{ steps.today-string.outputs.today }}"
+        run: echo $TODAY
