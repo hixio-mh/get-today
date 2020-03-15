@@ -2,8 +2,11 @@ const core = require("@actions/core");
 const github = require("@actions/github");
 
 try {
-  const time = new Date().toISOString();
-  core.setOutput("time", time);
+  const today = new Date();
+  const timeString = ('0' + today.getDate()).slice(-2) + '/'
+                   + ('0' + (today.getMonth()+1)).slice(-2) + '/'
+                   + today.getFullYear();
+  core.setOutput("time", timeString);
 } catch (error) {
   core.setFailed(error.message);
 }
