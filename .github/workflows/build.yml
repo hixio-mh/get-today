@@ -9,5 +9,5 @@ jobs:
         id: today-string
       - name: Use today string
         env:
-          TODAY: "${{ steps.today-string.outputs }}"
+          TODAY: "Test-${{ steps.today-string.outputs.today }}"
         run: echo $TODAY
