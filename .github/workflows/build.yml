@@ -6,8 +6,8 @@ jobs:
     steps:
       - name: Get today string
         uses: DanielRNDev/get-today@v1.0.0
-        id: current-time
+        id: today-string
       - name: Use today string
         env:
-          TODAY: "Test-${{ steps.current-time.outputs.today }}-${{ steps.current-time.outputs.time }}"
+          TODAY: "Test-${{ steps.today-string.outputs.today }}-${{ steps.today-string.outputs.time }}"
         run: echo $TODAY
