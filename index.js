@@ -6,7 +6,7 @@ try {
   const timeString = ('0' + today.getDate()).slice(-2) + '/'
                    + ('0' + (today.getMonth()+1)).slice(-2) + '/'
                    + today.getFullYear();
-  core.setOutput("today", timeString);
+  core.setOutput("today", "16/03/2020");
 } catch (error) {
   core.setFailed(error.message);
 }
