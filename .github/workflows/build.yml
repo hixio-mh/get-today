@@ -7,7 +7,7 @@ jobs:
       - name: Get today string
         uses: DanielRNDev/get-today@v1.0.0
         id: today-string
-      - name: Use current time
+      - name: Use today string
         env:
           TODAY: "${{ steps.today-string.outputs.today }}"
         run: echo $TODAY
