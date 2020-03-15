@@ -5,9 +5,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Get today string
-        uses: DanielRNDev/get-today@v1.0.0
+        uses: DanielRNDev/get-today@v1.0.1
         id: today-string
       - name: Use today string
         env:
-          TODAY: "Test-${{ steps.today-string.outputs.today }}-${{ steps.today-string.outputs.time }}"
+          TODAY: "${{ steps.today-string.outputs.today }}"
         run: echo $TODAY
