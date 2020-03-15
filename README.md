@@ -1,6 +1,6 @@
 # Get Today Javascript Action
 
-This action sets the today following format "DD/MM/YYYY" to the `today` output. Useful for setting build times in subsequent steps, or keeping the same recorded time for the entire workflow.
+This action sets the today following format "DD/MM/YYYY" to the `today` output. Useful for setting release date.
 
 ## Outputs
 
