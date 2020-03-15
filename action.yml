@@ -1,6 +1,6 @@
-name: "Current Time"
-author: "Gerred Dillon <hello@gerred.org>"
-description: "Get the current time"
+name: "Get today string"
+author: "Daniel Hoang <danielhoang79@gmail.com>"
+description: "Get today string"
 branding:
   icon: clock
   color: blue
