@@ -5,8 +5,8 @@ branding:
   icon: clock
   color: blue
 outputs:
-  time:
-    description: "The time this action was run"
+  today:
+    description: "The current date that the action run"
 runs:
   using: "node12"
   main: "index.js"
