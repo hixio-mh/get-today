@@ -13,8 +13,7 @@ This action sets the today following format "DD/MM/YYYY" to the `time` output. U
 ```yaml
 steps:
 - name: Get current time
-  uses: 
-DanielRNDev/actions/current-time@master
+  uses: DanielRNDev/actions/current-time@master
   id: current-time
 - name: Use current time
   env:
