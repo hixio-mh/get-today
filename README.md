@@ -1,6 +1,6 @@
 # Get Today Javascript Action
 
-This action sets the today following format "DD-MM-YYYY" to the `today` output. Useful for setting release date.
+This action sets the today following format "DD-MM-YYYY" to the `today` output. Useful for setting release date for packages.
 
 ## Outputs
 
