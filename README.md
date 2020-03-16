@@ -1,12 +1,12 @@
 # Get Today Javascript Action
 
-This action sets the today following format "DD/MM/YYYY" to the `today` output. Useful for setting release date.
+This action sets the today following format "DD-MM-YYYY" to the `today` output. Useful for setting release date.
 
 ## Outputs
 
 ### `today`
 
-"DD/MM/YYYY - 15/03/2020"
+"DD-MM-YYYY - 15-03-2020"
 
 ## Example usage
 
