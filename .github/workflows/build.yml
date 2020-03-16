@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Get today string
-        uses: DanielRNDev/get-today@master
+        uses: DanielRNDev/get-today@v1.0.2
         id: today-string
       - name: Use today string
         env:
