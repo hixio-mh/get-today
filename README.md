@@ -2,7 +2,7 @@
 
 This action sets the today following format "DD-MM-YYYY" or "DD/MM/YYYY" to the `today` output. Useful for setting release date for packages.
 
-## Outputs
+## Outputs v1.0.1
 
 ### `today`
 
@@ -21,7 +21,7 @@ steps:
   run: echo $TODAY
 ```
 
-## Outputs
+## Outputs v1.0.2
 
 ### `today`
 
